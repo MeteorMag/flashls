@@ -18,7 +18,7 @@ package org.mangui.hls {
          *
          * Default is false
          */
-        public static var capLevelToStage : Boolean = false;
+        public static var capLevelToStage : Boolean = true;
 
         /**
          * maxLevelCappingMode
@@ -53,7 +53,7 @@ package org.mangui.hls {
          *
          * Default is 120
          */
-        public static var maxBufferLength : Number = 120;
+        public static var maxBufferLength : Number = 24;
 
         /**
          * maxBackBufferLength
@@ -214,7 +214,7 @@ package org.mangui.hls {
          *
          * Default is false
          */
-        public static var useHardwareVideoDecoder : Boolean = false;
+        public static var useHardwareVideoDecoder : Boolean = true;
 
         /**
          * logInfo

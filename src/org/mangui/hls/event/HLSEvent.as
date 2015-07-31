@@ -104,10 +104,7 @@ package org.mangui.hls.event {
                     break;
                 case TAGS_LOADED:
                 case FRAGMENT_LOADED:
-<<<<<<< HEAD
-=======
                 case FRAGMENT_LOAD_EMERGENCY_ABORTED:
->>>>>>> 0216d97727bb5b7cd7cb7d362495aba8af2fbd02
                 case LEVEL_LOADED:
                 case AUDIO_LEVEL_LOADED:
                     loadMetrics = parameter as HLSLoadMetrics;

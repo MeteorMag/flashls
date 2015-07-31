@@ -79,11 +79,7 @@
                   _sumKbps=0;
             }
             _sumLatency+=latency;
-<<<<<<< HEAD
-            _sumKbps+=bitrate;
-=======
             _sumKbps+=bandwidth;
->>>>>>> 0216d97727bb5b7cd7cb7d362495aba8af2fbd02
             _stats.fragBufferedBytes+=metrics.size;
             _stats.fragAvgLatency = _sumLatency/_stats.fragBuffered;
             _stats.fragAvgKbps = _sumKbps/_stats.fragBuffered;

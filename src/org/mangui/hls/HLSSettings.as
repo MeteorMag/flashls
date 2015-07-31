@@ -53,7 +53,7 @@ package org.mangui.hls {
          *
          * Default is 120
          */
-        public static var maxBufferLength : Number = 24;
+        public static var maxBufferLength : Number = 120;
 
         /**
          * maxBackBufferLength

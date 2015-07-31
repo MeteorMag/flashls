@@ -33,11 +33,7 @@ package org.mangui.hls.controller {
         private var _nbLevel : int = 0;
         private var _lastSegmentDuration : Number;
         private var _lastFetchDuration : Number;
-<<<<<<< HEAD
-        private var  lastBandwidth : Number;
-=======
         private var  lastBandwidth : int;
->>>>>>> 0216d97727bb5b7cd7cb7d362495aba8af2fbd02
         private var  _autoLevelCapping : int;
         private var  _startLevel : int = -1;
         private var  _fpsController : FPSController;
